@@ -4,4 +4,59 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+// @import './example';
+body {
+  background-color: rgb(100, 133, 172);
+  font-size: 20px;
+}
+
+.cantry {
+  // position: absolute;
+  // top: 30%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  color: rgb(29, 202, 150);
+  font-size: 34px;
+}
+
+input {
+  width: 400px;
+}
+.container__card {
+  display: flex;
+  // justify-content: center;
+}
+
+.container__text {
+  display: inline-flex;
+  flex-direction: column;
+  width: 640px;
+  min-height: 320px;
+}
+
+span {
+  text-align: start;
+}
+// ul{
+//   list-style: none;
+
+// }
+
+.brighttheme-text {
+  background-color: rgb(189, 10, 46);
+}
+
+.list__cantry {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container__img {
+  display: inline-flex;
+}
