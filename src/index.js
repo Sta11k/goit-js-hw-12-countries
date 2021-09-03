@@ -27,7 +27,8 @@ const hendlerSubmin = (e) => {
         return response.json();
       })
         .then(data => {
-         maxCantry(data)
+          maxCantry(data)
+          console.log(data);
         })
    
       .catch(error => {
@@ -54,6 +55,7 @@ const maxCantry = ( data ) => {
   } if (data.length === 1) {
 
     resultCantry(data)
+    
     return
   } 
 }
